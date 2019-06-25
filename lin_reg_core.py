@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('/Users/surendra/Documents/Weather.csv',low_memory=False)
+dataset=pd.read_csv('/Weather.csv',low_memory=False)
 
 dataset=dataset.head(1000)
 m=0
